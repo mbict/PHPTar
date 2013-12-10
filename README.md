@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mbict/phptar.png?branch=master)](https://travis-ci.org/mbict/phptar)
+[![Build Status](https://travis-ci.org/mbict/PHPTar.png?branch=master)](https://travis-ci.org/mbict/PHPTar)
 PHPTar
 ======
 PHP Tar wrapper extension for php

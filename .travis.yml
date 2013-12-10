@@ -2,6 +2,10 @@ language: php
 php:
  - 5.5
  - 5.4
+before_install:
+ - sudo apt-get update
+install:
+ - sudo apt-get install libtar-dev
 before_script:
  - echo "extension = phptar.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
  - phpize
