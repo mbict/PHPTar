@@ -5,6 +5,9 @@ php:
 before_install:
  - sudo apt-get update
 install:
+ - sudo apt-get install build-essential
+ - sudo apt-get install libbz2-dev
+ - sudo apt-get install zlib1g-dev
  - sudo apt-get install libtar-dev
  - sudo apt-get install php-pear
  - sudo apt-get install php5-dev
